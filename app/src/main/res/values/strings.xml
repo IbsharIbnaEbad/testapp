@@ -1,0 +1,30 @@
+<resources>
+
+
+    <string name="app_name">PCPulse</string>
+    <string name="wlc">Welcome to PCPulse</string>
+    <string name="msg">New here? </string>
+    <string name="admin">Hello   </string>
+    <string name="admin2"> PC Pulse Admin  </string>
+    <string name="up"> Update or Delete a product </string>
+    <string name="stock"> Insert stock  </string>
+    <string name="vi"> Available stock  </string>
+    <string name="DELETE"> Remove item from stock </string>
+    <string name="insert"> Upload new stock </string>
+
+
+
+    <string name="wlcU">Welcome to user page </string>
+    <string name="wlcAD">Welcome to admin page</string>
+    <string name="enUsr">Enter Your User ID</string>
+    <string name="enPass">Enter Your Password</string>
+    <string name="enNu">Enter Your Number</string>
+    <string name="enD">Enter Your Date of birth </string>
+    <string name="regw">Welcome to
+            Pc Pluse </string>
+    <string name="regCr">Create an account </string>
+    <string name="enFN">First Name</string>
+    <string name="enSN">Surname Name</string>
+    <string name="enph">Phone number </string>
+    <string name="enCpass">confirm your password </string>
+</resources>

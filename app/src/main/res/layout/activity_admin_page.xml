@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/img_background"
+
+    android:padding="16dp"
+    tools:context=".admin_pc">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/img_computer"
+        android:scaleType="fitXY"
+        />
+
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/admin"
+        android:fontFamily="serif"
+        android:textColor="#005EB8"
+        android:textSize="27sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/hello1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/admin2"
+        android:layout_marginTop="5dp"
+        android:fontFamily="serif"
+        android:textColor="#005EB8"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_insert_product"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#05A4EB"
+        android:drawableLeft="@drawable/img_edit"
+
+        android:text="@string/stock" />
+
+    <Button
+        android:id="@+id/btn_item_list"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#1884B4"
+        android:drawableLeft="@drawable/img_list"
+
+        android:text="@string/vi" />
+
+    <Button
+        android:id="@+id/btn_updatedlt"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#125A7A"
+        android:drawableLeft="@drawable/icon_delete"
+        android:drawableRight="@drawable/icon_update"
+        android:text="@string/up"
+        />
+
+
+</LinearLayout>

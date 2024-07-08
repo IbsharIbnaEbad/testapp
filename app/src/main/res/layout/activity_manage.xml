@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin_helper">
+
+    <Button
+        android:id="@+id/btn_dlt"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#2618E6"
+        android:drawableLeft="@drawable/icon_delete"
+        android:text="delete" />
+
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#2618E6"
+        android:drawableLeft="@drawable/icon_update"
+
+        android:text="update" />
+
+</LinearLayout>
