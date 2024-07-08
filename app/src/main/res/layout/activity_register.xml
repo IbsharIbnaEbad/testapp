@@ -52,6 +52,7 @@
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:ems="10"
+        android:drawableLeft="@drawable/img_person"
         android:hint="@string/enUsr"
         android:inputType="text" />
 
@@ -67,6 +68,7 @@
         android:textStyle="italic"
         android:textAlignment="center"
         android:background="#83355C7E"
+        android:drawableLeft="@drawable/img_person"
         android:ems="10"
         android:hint="@string/enSN"
         android:inputType="text" />
@@ -81,6 +83,7 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="italic"
+        android:drawableLeft="@drawable/img_phone"
         android:textAlignment="center"
         android:textColorHint="@color/white"
         android:ems="10"
@@ -96,6 +99,7 @@
         android:background="#83355C7E"
         android:ems="10"
         android:textSize="20sp"
+        android:drawableLeft="@drawable/icon_pass"
         android:textStyle="italic"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -116,6 +120,7 @@
         android:textSize="20sp"
         android:textStyle="italic"
         android:textAlignment="center"
+        android:drawableLeft="@drawable/icon_pass"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:inputType="number" />

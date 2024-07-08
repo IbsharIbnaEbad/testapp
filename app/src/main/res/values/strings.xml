@@ -16,7 +16,7 @@
 
     <string name="wlcU">Welcome to user page </string>
     <string name="wlcAD">Welcome to admin page</string>
-    <string name="enUsr">Enter Your User ID</string>
+    <string name="enUsr">Enter Your User Name</string>
     <string name="enPass">Enter Your Password</string>
     <string name="enNu">Enter Your Number</string>
     <string name="enD">Enter Your Date of birth </string>
