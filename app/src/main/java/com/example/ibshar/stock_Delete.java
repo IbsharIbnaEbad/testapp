@@ -38,7 +38,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class stock_Delate extends AppCompatActivity {
+public class stock_Delete extends AppCompatActivity {
 
     private static final int PICK_IMAGE_REQUEST = 1;
 

@@ -8,7 +8,7 @@
     android:background="@drawable/img_background_edit"
     android:orientation="vertical"
     android:padding="19dp"
-    tools:context=".stock_Delate">
+    tools:context=".stock_Delete">
 
     <TextView
         android:id="@+id/text_view_header"

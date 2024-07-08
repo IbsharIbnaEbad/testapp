@@ -16,7 +16,7 @@
             android:name=".admin_helper"
             android:exported="false" />
         <activity
-            android:name=".stock_Delate"
+            android:name=".stock_Delete"
             android:exported="false" />
         <activity
             android:name=".stock_update"

@@ -21,7 +21,7 @@ public class admin_helper extends AppCompatActivity {
         btn_up = findViewById(R.id.btn_up);
 
         btn_dlt.setOnClickListener(v -> {
-            Intent intent = new Intent(admin_helper.this, stock_Delate.class);
+            Intent intent = new Intent(admin_helper.this, stock_Delete.class);
             startActivity(intent);
         });
 
